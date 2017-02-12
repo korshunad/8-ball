@@ -48,7 +48,7 @@ if (window.DeviceMotionEvent != undefined) {
       x = -30;
       vx = 0;
     }
-    document.getElementById('show').innerHTML = stop.length
+  
     if (x > document.documentElement.clientWidth - 320) {
       x = document.documentElement.clientWidth - 320;
       vx = 0;
@@ -81,7 +81,7 @@ if (window.DeviceMotionEvent != undefined) {
     }
 
     if (stop.length > 200 && quoteOrNot) {
-
+  document.getElementById('show').innerHTML = 'I am reached'
       document.getElementById('window').style.opacity += 0.9
       if (ultimate == false) {
         //console.log(ultimate + 'ultimate')
