@@ -31,6 +31,23 @@
   position: absolute;
   top: 40%-125px;
 }
+#container {
+  width: 350px;
+  height: 350px;
+  position: absolute;
+  margin-top: (40% - 175px);
+  margin-left: calc(50% - 175px);
+}
+
+#content {
+  text-align:center;
+  margin-top:5%;
+  font-family: 'Della Respira', serif;
+}
+#instruction {
+  margin:2%;
+}
+
 
 @-webkit-keyframes spaceboots {
 	0% { -webkit-transform: translate(20px, 1px) rotate(0deg); }
