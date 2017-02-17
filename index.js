@@ -56,8 +56,8 @@ setInterval(function() {
     vx = 0;
   }
 
-  if (x > document.documentElement.clientWidth - 330) {
-    x = document.documentElement.clientWidth - 330;
+  if (x > document.documentElement.clientWidth - 310) {
+    x = document.documentElement.clientWidth - 310;
     vx = 0;
   }
   var stopper = stop.slice(stop.length - 200)
